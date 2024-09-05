@@ -1,0 +1,122 @@
+.container-fluid2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: #F9F6EE;
+    color: blue;
+    padding-left: 50px;
+    
+    
+    }
+    
+    .sentence:hover {
+        font-size: 18px;
+    }
+
+img {
+    /*width: 100%;*/
+    width: 100%;
+    border: 0.5px solid blue;
+    }
+
+.img3 {
+    width: 4%;
+    padding: auto;
+     
+}
+
+.navbar-nav {
+    margin: auto; 
+}
+
+li {
+    border:  2px solid gray;
+    padding: 10px;
+    list-style: none;
+    background-color: lightgray;
+    color:blue;
+    text-align: center;
+
+}
+li:hover {
+    background-color: rgb(110, 110, 255);
+}
+
+h2 {
+    text-align: center;
+}
+
+h2:hover {
+    font-size: 35px;
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+    }
+
+    h4:hover {
+        font-size: 27px;
+    }
+
+h5 {
+    text-align: center;
+}
+
+h5:hover {
+    font-size: 25px;
+}
+
+.sentence {
+    text-align: center;
+}
+
+body {
+    background-image: url("unsplash-cloud-img.jpg");
+    background-repeat: repeat;
+    background-size:cover;
+    animation: smoke_anim 200s linear infinite;
+    }
+
+/* source for animation: https://www.w3schools.com/css/css3_animations.asp */
+@keyframes smoke_anim {
+    0%{background-position: 0 0;}
+    100%{background-position: -2122px 0;}   
+}
+
+.footer {
+    color: blue;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    margin:0;
+}
+
+#advice {
+    color: blue;
+    text-align: center;
+    
+    
+    
+}
+
+#navbar-title {
+    font-family: "Gloria Hallelujah", cursive;
+    color:blue;
+}
+
+#babyImg {
+    margin-left: 150px;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+#infoBoxes {
+    padding-top: 20px;
+}
+
+
+
+
